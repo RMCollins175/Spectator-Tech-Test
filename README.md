@@ -7,7 +7,8 @@
 
 #### Next Steps/TODO
 - add attribution somewhere - "Powered by newsapi.org"
-- change <a> tags to <Link>(s) 
+- change <a> tags to <NavLink>(s) 
+- Carousel for breaking news stories
 
 
 
