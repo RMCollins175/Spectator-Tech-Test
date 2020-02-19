@@ -5,8 +5,9 @@
 
 
 
-#### Next Steps
-- add attribution - "Powered by newsapi.org"
+#### Next Steps/TODO
+- add attribution somewhere - "Powered by newsapi.org"
+- change <a> tags to <Link>(s) 
 
 
 
