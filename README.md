@@ -9,17 +9,18 @@
 - add attribution somewhere - "Powered by newsapi.org"
 - change <a> tags to <NavLink>(s) 
 - Carousel for breaking news stories
-- Search functionality 
 - I Could click on each card to bring up a new page purely dedicated to the story
     - by route params (see pictures)
     - ViewArticle component
 - unit tests
+- DiscoverNews isn't named right 
 
 
 
 
 #### Blockers/Problems
-
+- rate limiting on the API
+- form input/search functionality - tricky. onChange vs onSubmit
 
 
 
@@ -31,6 +32,9 @@
 
 
 #### Packages Used
+
+
+
 
 
 #### Details 

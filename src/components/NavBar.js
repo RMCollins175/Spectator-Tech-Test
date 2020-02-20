@@ -7,10 +7,15 @@ export default class NavBar extends Component {
     this.state = {keyword: ""}
   }
 
-  handleChange = (event) => {
+  handleChange = event => {
     const {name , value} = event.target
-    this.props.searchNews(value)
     this.setState({[name]: value})
+  }
+
+  handleSubmit = (event) => {
+    console.log("submission")
+    event.preventDefault()
+    this.props.searchNews(this.state.keyword)
   }
 
   render() {
@@ -78,6 +83,7 @@ export default class NavBar extends Component {
               <button
                 class="btn btn-outline-success my-2 my-sm-0"
                 type="submit"
+                onClick={this.handleSubmit}
               >
                 Search
               </button>
