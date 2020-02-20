@@ -5,6 +5,12 @@ import NewsList from "./NewsList.js";
 
 import Axios from "axios";
 
+const baseAPI =
+  "http://newsapi.org/v2/top-headlines?country=gb&apiKey=55f245758a054a6381d493b655144574";
+
+const searchAPI = "http://newsapi.org/v2/everything?q="
+const apiKey = "&apiKey=55f245758a054a6381d493b655144574"
+
 export default class News extends Component {
   constructor(props) {
     super(props);
@@ -14,10 +20,13 @@ export default class News extends Component {
     };
   }
 
+//   async searchNews(keyword) {
+//     let response = await Axios.get(`${searchAPI}${keyword}${apiKey}`)
+//     console.log(response)
+//   }
+
   async componentDidMount() {
-    let response = await Axios.get(
-      "http://newsapi.org/v2/top-headlines?country=gb&apiKey=55f245758a054a6381d493b655144574"
-    );
+    let response = await Axios.get(`${baseAPI}`);
     console.log(response.data.articles);
     this.setState({ results: response.data.articles });
   }
@@ -27,9 +36,13 @@ export default class News extends Component {
 
     return (
       <>
-        <NavBar />
+        <NavBar 
+        searchNews={keyword => this.searchNews(keyword)} 
+        />
         <DiscoverNews />
-        <NewsList newsStories={results || []} />
+        <NewsList 
+        newsStories={results || []} 
+        />
       </>
     );
   }

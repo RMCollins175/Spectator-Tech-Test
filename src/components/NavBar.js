@@ -1,12 +1,24 @@
 import React, { Component } from "react";
 
 export default class NavBar extends Component {
+
+  constructor(props) {
+    super(props) 
+    this.state = {keyword: ""}
+  }
+
+  handleChange = (event) => {
+    const {name , value} = event.target
+    this.props.searchNews(value)
+    this.setState({[name]: value})
+  }
+
   render() {
     return (
       <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">
-            Navbar
+          <a class="navbar-brand" href="/">
+            News
           </a>
           <button
             class="navbar-toggler"
@@ -25,11 +37,6 @@ export default class NavBar extends Component {
               <li class="nav-item active">
                 <a class="nav-link" href="#">
                   Home <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
                 </a>
               </li>
               <li class="nav-item dropdown">
@@ -57,23 +64,16 @@ export default class NavBar extends Component {
                   </a>
                 </div>
               </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                >
-                  Disabled
-                </a>
-              </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <input
                 class="form-control mr-sm-2"
-                type="search"
+                type="text"
                 placeholder="Search"
                 aria-label="Search"
+                name="keyword"
+                value={this.state.keyword}
+                onChange={this.handleChange}
               />
               <button
                 class="btn btn-outline-success my-2 my-sm-0"
