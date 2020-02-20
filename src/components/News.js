@@ -2,14 +2,17 @@ import React, { Component } from "react";
 import DiscoverNews from "./DiscoverNews";
 import NavBar from "./NavBar";
 import NewsList from "./NewsList.js";
+import uuid from 'uuid'
+
+import { Switch, Route, Redirect } from "react-router-dom";
 
 import Axios from "axios";
 
 const baseAPI =
-  "http://newsapi.org/v2/top-headlines?country=gb&apiKey=55f245758a054a6381d493b655144574";
+  "http://newsapi.org/v2/top-headlines?country=gb&apiKey=e8d527c9872c46219461b1d3ac282653";
 
-const searchAPI = "http://newsapi.org/v2/everything?q="
-const apiKey = "&apiKey=55f245758a054a6381d493b655144574"
+const searchAPI = "http://newsapi.org/v2/everything?q=";
+const apiKey = "&apiKey=e8d527c9872c46219461b1d3ac282653";
 
 export default class News extends Component {
   constructor(props) {
@@ -21,8 +24,8 @@ export default class News extends Component {
   }
 
   async searchNews(keyword) {
-    let response = await Axios.get(`${searchAPI}${keyword}${apiKey}`)
-    console.log(response)
+    let response = await Axios.get(`${searchAPI}${keyword}${apiKey}`);
+    console.log(response);
   }
 
   async componentDidMount() {
@@ -36,13 +39,20 @@ export default class News extends Component {
 
     return (
       <>
-        <NavBar 
-        searchNews={keyword => this.searchNews(keyword)} 
-        />
+        <NavBar searchNews={keyword => this.searchNews(keyword)} />
         <DiscoverNews />
-        <NewsList 
-        newsStories={results || []} 
-        />
+        <Switch>
+          <Route
+            exact
+            path="/"
+            render={() => <NewsList newsStories={results || []} />}
+          />
+          {/* <Route 
+            exact
+            path="/news/:story"
+            render={() => <NewsStory {...props} story={}}
+          /> */}
+        </Switch>
       </>
     );
   }

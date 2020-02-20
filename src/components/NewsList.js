@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import NewsListItem from "./NewsListItem";
+import uuid from 'uuid'
 
 export default class NewsList extends Component {
   render() {
@@ -14,6 +15,7 @@ export default class NewsList extends Component {
           source={story.source.name}
           link={story.url}
           publishedTime={story.publishedAt}
+          key={uuid()}
         />
       );
     });

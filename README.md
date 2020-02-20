@@ -33,12 +33,15 @@
 
 #### Packages Used
 
-
+- Axios
+- Moment
+- Bootstrap (including Popper/JQuery)
 
 
 
 #### Details 
-Your API key is: 55f245758a054a6381d493b655144574
+My API key is: 55f245758a054a6381d493b655144574
+
 
 
 
