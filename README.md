@@ -36,6 +36,7 @@
 - Axios
 - Moment
 - Bootstrap (including Popper/JQuery)
+- Uuid
 
 
 

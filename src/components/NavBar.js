@@ -36,7 +36,6 @@ export default class NavBar extends Component {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
@@ -54,18 +53,24 @@ export default class NavBar extends Component {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  More News
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">
-                    Action
+                    US News
                   </a>
                   <a class="dropdown-item" href="#">
-                    Another action
+                    Global News
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    Economics
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    Politics
                   </a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">
-                    Something else here
+                  <a class="dropdown-item" href="/">
+                    UK News
                   </a>
                 </div>
               </li>
