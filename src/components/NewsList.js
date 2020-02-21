@@ -5,6 +5,12 @@ import uuid from "uuid";
 export default class NewsList extends Component {
 
   render() {
+
+    const { newsStories } = this.props
+
+    if (newsStories.length === 1) {
+      return <div style={{padding: "10px", color: "red"}}>{newsStories[0].text}</div>
+    }
   
     const stories = this.props.newsStories.map(story => {
       return (

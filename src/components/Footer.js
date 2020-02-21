@@ -6,7 +6,9 @@ export default class Footer extends Component {
       <div>
         <footer id="sticky-footer" className="py-4 bg-danger text-white-50">
           <div className="container text-center">
-            <small>Powered by <a href="https://newsapi.org/">NewsAPI</a></small>
+            <small>
+              Powered by <a href="https://newsapi.org/">NewsAPI</a>
+            </small>
           </div>
         </footer>
       </div>
