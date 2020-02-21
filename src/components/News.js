@@ -3,6 +3,7 @@ import DiscoverNews from "./DiscoverNews";
 import NavBar from "./NavBar";
 import NewsList from "./NewsList.js";
 import NewsStory from "./NewsStory"
+import Footer from "./Footer"
 
 import { Switch, Route, Redirect } from "react-router-dom";
 
@@ -56,6 +57,7 @@ export default class News extends Component {
             render={(routeProps) => <NewsStory {...routeProps} />}
             />
         </Switch>
+        <Footer />
         <Redirect to="/" />
       </>
     );

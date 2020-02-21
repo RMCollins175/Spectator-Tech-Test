@@ -74,7 +74,7 @@ export default class NavBar extends Component {
               <input
                 className="form-control mr-sm-2"
                 type="text"
-                placeholder="Search"
+                placeholder="Search..."
                 aria-label="Search"
                 name="keyword"
                 value={this.state.keyword}
