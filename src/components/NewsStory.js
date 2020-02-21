@@ -54,12 +54,10 @@ export default class NewsStory extends Component {
             <h5 className="card-title">{article.title}</h5>
             <p className="card-text" style={{minHeight: "100vh"}}>{article.content}</p>
             <p className="card-text">
-              <div>
                 <small className="text-muted">Last updated 3 mins ago</small>
-              </div>
-              <div>
+            </p>
+            <p className="card-text">
                 <small className="text-muted">Last updated 3 mins ago</small>
-              </div>
             </p>
           </div>
         </div>
