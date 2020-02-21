@@ -39,9 +39,7 @@ export default class NewsStory extends Component {
 
   render() {
     const article = this.findArticle();
-    console.log("1", article);
     if (!article) return null;
-    console.log("2", article);
     return (
       <div className="container">
         <div className="card mb-3">
@@ -52,14 +50,15 @@ export default class NewsStory extends Component {
           />
           <div className="card-body">
             <h5 className="card-title">{article.title}</h5>
-            <p className="card-text" style={{minHeight: "100vh"}}>{article.content}</p>
+            <p className="card-text" style={{ minHeight: "100vh" }}>
+              {article.content}
+            </p>
+
             <p className="card-text">
-              <div>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </div>
-              <div>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </div>
+              <small className="text-muted">Last updated 3 mins ago</small>
+            </p>
+            <p className="card-text">
+              <small className="text-muted">Last updated 3 mins ago</small>
             </p>
           </div>
         </div>

@@ -23,7 +23,7 @@ export default class NewsListItem extends Component {
     return (
       <div className="col-lg-4 mb-3" onClick={this.handleClick}>
         <div className="card">
-          <Link to={`/news/${title}`} style={{ color: "black" }}>
+          <Link to={`/news/${encodeURIComponent(title)}`} style={{ color: "black" }}>
             <img src={image} className="card-img-top" alt="..." />
           </Link>
           <div className="card-body">
