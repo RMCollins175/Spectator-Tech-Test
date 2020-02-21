@@ -26,12 +26,14 @@ export default class News extends Component {
   async searchNews(keyword) {
     const response = await Axios.get(`${searchAPI}${keyword}${apiKey}`);
     console.log(response.data.articles)
+    this.setState({ results: response.data.articles});
   }
 
   async componentDidMount() {
     this._isMounted = true;
     const response = await Axios.get(`${baseAPI}`);
     this.setState({ results: response.data.articles});
+    console.log(this.state.results)
   }
 
   render() {
