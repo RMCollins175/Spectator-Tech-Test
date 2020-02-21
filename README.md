@@ -3,8 +3,6 @@
     - cons - a bit cluttered
 
 
-
-
 #### Next Steps/TODO
 - add attribution somewhere - "Powered by newsapi.org"
 - change <a> tags to <NavLink>(s) 

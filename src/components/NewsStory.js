@@ -32,14 +32,18 @@ export default class NewsStory extends Component {
   findArticle = () => {
     const article = this.props;
     let currentArticle = this.state.articles.find(
-      a => a.title === article.match.params.title
+      a => decodeURIComponent(a.title) === decodeURIComponent(article.match.params.title)
     );
     return currentArticle;
   };
 
   render() {
     const article = this.findArticle();
+
+    console.log("PARAMS", this.props.match.params)
+
     if (!article) return null;
+    console.log(article)
     return (
       <div className="container">
         <div className="card mb-3">
@@ -58,7 +62,10 @@ export default class NewsStory extends Component {
               <small className="text-muted">Last updated 3 mins ago</small>
             </p>
             <p className="card-text">
-              <small className="text-muted">Last updated 3 mins ago</small>
+                <small className="text-muted">Last updated 3 mins ago</small>
+            </p>
+            <p className="card-text">
+                <small className="text-muted">Last updated 3 mins ago</small>
             </p>
           </div>
         </div>
