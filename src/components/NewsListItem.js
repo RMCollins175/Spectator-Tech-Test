@@ -22,6 +22,7 @@ export default class NewsListItem extends Component {
 
     // console.log("URI TITLE", encodeURIComponent(title))
     // console.log("TITLE", title)
+
     return (
       <div className="col-lg-4 mb-3" onClick={this.handleClick}>
         <div className="card">

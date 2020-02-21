@@ -13,6 +13,10 @@
 - unit tests
 - DiscoverNews isn't named right 
 - newsStories={results || [] } ... do i need the empty array
+- App/News setup is wrong. I should be doing my routing in APP component
+- Remove data-test attributes from production
+    - https://www.udemy.com/course/react-testing-with-jest-and-enzyme/learn/lecture/16175901#overview
+
 
 
 
@@ -29,7 +33,6 @@
 
 
 #### Final Thoughts
-
 
 
 

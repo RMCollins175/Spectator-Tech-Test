@@ -35,9 +35,13 @@ export default class News extends Component {
   }
 
   async searchNews(keyword) {
-    const response = await Axios.get(`${searchAPI}${keyword}${apiKey}`);
-    console.log(response.data.articles);
-    this.setState({ results: response.data.articles });
+    try {
+        const response = await Axios.get(`${searchAPI}${keyword}${apiKey}`);
+        this.setState({ results: response.data.articles });
+        console.log(response.data.articles);
+    } catch(e) {
+        this.handleError(e);
+    }
   }
 
   async componentDidMount() {
@@ -51,11 +55,13 @@ export default class News extends Component {
     console.log(this.state.results);
   }
 
+
   render() {
     const { results, articles } = this.state;
 
     return (
       <>
+      <div data-test="news-component">
         <NavBar searchNews={keyword => this.searchNews(keyword)} />
         <DiscoverNews />
         <Switch>
@@ -74,15 +80,9 @@ export default class News extends Component {
         </Switch>
         <Footer />
         <Redirect to="/" />
+        </div>
       </>
     );
   }
 }
 
-// i somehow need to find the position of the NewsListItem that i am clicking and match it
-// to the one in this.state.results, assign that a value and pass it in as the story route params
-// find which position it is in the response.data.articles array
-// set a state with that as this.state.newsStory
-// then pass that story as (route)props to NewsStory component
-
-// findIndex

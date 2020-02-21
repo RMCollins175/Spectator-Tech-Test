@@ -32,7 +32,7 @@ export default class NewsStory extends Component {
   findArticle = () => {
     const article = this.props;
     let currentArticle = this.state.articles.find(
-      a => decodeURIComponent(a.title) === decodeURIComponent(article.match.params.title)
+      a => decodeURIComponent(a.title) === article.match.params.title
     );
     return currentArticle;
   };
