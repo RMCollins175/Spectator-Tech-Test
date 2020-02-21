@@ -39,16 +39,16 @@ export default class NavBar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   Home <span className="sr-only">(current)</span>
                 </a>
               </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
                   id="navbarDropdown"
                   role="button"
+                  href="/"
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
@@ -56,16 +56,16 @@ export default class NavBar extends Component {
                   More News
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/">
                     US News
                   </a>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/">
                     Global News
                   </a>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/">
                     Economics
                   </a>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/">
                     Politics
                   </a>
                   <div className="dropdown-divider"></div>

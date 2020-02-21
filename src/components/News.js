@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import DiscoverNews from "./DiscoverNews";
 import NavBar from "./NavBar";
 import NewsList from "./NewsList.js";
-import NewsListItem from "./NewsListItem.js";
 import NewsStory from "./NewsStory"
-import uuid from 'uuid'
 
 import { Switch, Route, Redirect } from "react-router-dom";
 
@@ -27,6 +25,7 @@ export default class News extends Component {
 
   async searchNews(keyword) {
     const response = await Axios.get(`${searchAPI}${keyword}${apiKey}`);
+    console.log(response.data.articles)
   }
 
   async componentDidMount() {
