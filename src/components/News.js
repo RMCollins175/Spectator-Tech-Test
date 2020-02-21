@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import DiscoverNews from "./DiscoverNews";
 import NavBar from "./NavBar";
 import NewsList from "./NewsList.js";
+import NewsListItem from "./NewsListItem.js";
+import NewsStory from "./NewsStory"
 import uuid from 'uuid'
 
 import { Switch, Route, Redirect } from "react-router-dom";
@@ -24,36 +26,45 @@ export default class News extends Component {
   }
 
   async searchNews(keyword) {
-    let response = await Axios.get(`${searchAPI}${keyword}${apiKey}`);
-    console.log(response);
+    const response = await Axios.get(`${searchAPI}${keyword}${apiKey}`);
   }
 
   async componentDidMount() {
-    let response = await Axios.get(`${baseAPI}`);
-    console.log(response.data.articles);
-    this.setState({ results: response.data.articles });
+    this._isMounted = true;
+    const response = await Axios.get(`${baseAPI}`);
+    this.setState({ results: response.data.articles});
   }
 
   render() {
-    const { results } = this.state;
+
+    const { results, articles } = this.state;
 
     return (
-      <>
+        <>
         <NavBar searchNews={keyword => this.searchNews(keyword)} />
         <DiscoverNews />
         <Switch>
           <Route
             exact
             path="/"
-            render={() => <NewsList newsStories={results || []} />}
+            render={() => <NewsList newsStories={results || [] } newsArray={articles} />}
           />
-          {/* <Route 
+          <Route 
             exact
-            path="/news/:story"
-            render={() => <NewsStory {...props} story={}}
-          /> */}
+            path="/news/:title"
+            render={(routeProps) => <NewsStory {...routeProps} />}
+            />
         </Switch>
+        <Redirect to="/" />
       </>
     );
   }
 }
+
+// i somehow need to find the position of the NewsListItem that i am clicking and match it 
+// to the one in this.state.results, assign that a value and pass it in as the story route params
+// find which position it is in the response.data.articles array
+// set a state with that as this.state.newsStory
+// then pass that story as (route)props to NewsStory component
+
+// findIndex

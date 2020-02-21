@@ -14,13 +14,18 @@
     - ViewArticle component
 - unit tests
 - DiscoverNews isn't named right 
-
+- newsStories={results || [] } ... do i need the empty array
 
 
 
 #### Blockers/Problems
 - rate limiting on the API
 - form input/search functionality - tricky. onChange vs onSubmit
+- To render a single article was tricky because:
+    - how the API is structured, you cannot find one article easily
+    - I would have just made a request in NewsStory to get that article based on a unique id lets say given by the API. but the API doesn't do that. I thought about using the URL as that's unique by React Router didn't like that and nested a url inside a url seems like a big no no
+    - the other option was to use context as a wrapper for everything, so I could easily have each component access to props, but I thought that would be unneccessry and maybe overkill
+    - while this way isn't ideal, have to create another stateful component and make a separate request it does the job as there isn't loads of data flying around. In a bigger application, this would be a no go, as things would get messy quickly. Plus we don't really want to make the same requests twice if we don't have to. 
 
 
 

@@ -1,13 +1,19 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Moment from "react-moment";
 
 export default class NewsListItem extends Component {
+
+  handleClick = () => {
+    console.log()
+  }
+
   render() {
     const {
       image,
       title,
       content,
-      description,
+      // description,
       author,
       source,
       link,
@@ -15,25 +21,27 @@ export default class NewsListItem extends Component {
     } = this.props;
 
     return (
-      <div class="col-lg-4 mb-3">
-        <div class="card">
-          <img src={image} class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">{title}</h5>
+      <div className="col-lg-4 mb-3" onClick={this.handleClick}>
+        <div className="card">
+          <Link to={`/news/${title}`} style={{ color: "black" }}>
+            <img src={image} className="card-img-top" alt="..." />
+          </Link>
+          <div className="card-body">
+            <h5 className="card-title">{title}</h5>
             <small>{content}</small>
             {/* or {description} */}
-            <footer class="blockquote-footer">
-              <small class="text-muted">
+            <footer className="blockquote-footer">
+              <small className="text-muted">
                 <cite title="Source Title">{author}</cite>
               </small>
             </footer>
-            <p class="card-text pt-4">{source.name}</p>
+            <p className="card-text pt-4">{source.name}</p>
           </div>
-          <div class="card-footer d-flex justify-content-between ">
-            <a href={link} class="btn btn-outline-danger btn-sm">
+          <div className="card-footer d-flex justify-content-between ">
+            <a href={link} className="btn btn-outline-danger btn-sm">
               Go to Link
             </a>
-            <small class="text-muted">
+            <small className="text-muted">
               Published <Moment fromNow>{publishedTime}</Moment>
             </small>
           </div>
