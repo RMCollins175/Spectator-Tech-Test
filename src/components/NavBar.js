@@ -20,7 +20,7 @@ export default class NavBar extends Component {
 
   render() {
     return (
-      <div>
+      <div data-test="navbar-component">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <a className="navbar-brand" href="/">
             Home

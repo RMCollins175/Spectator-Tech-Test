@@ -14,6 +14,7 @@
 - DiscoverNews isn't named right 
 - newsStories={results || [] } ... do i need the empty array
 - App/News setup is wrong. I should be doing my routing in APP component
+    -refactor this
 - Remove data-test attributes from production
     - https://www.udemy.com/course/react-testing-with-jest-and-enzyme/learn/lecture/16175901#overview
 
@@ -28,8 +29,8 @@
     - I would have just made a request in NewsStory to get that article based on a unique id lets say given by the API. but the API doesn't do that. I thought about using the URL as that's unique by React Router didn't like that and nested a url inside a url seems like a big no no
     - the other option was to use context as a wrapper for everything, so I could easily have each component access to props, but I thought that would be unneccessry and maybe overkill
     - while this way isn't ideal, have to create another stateful component and make a separate request it does the job as there isn't loads of data flying around. In a bigger application, this would be a no go, as things would get messy quickly. Plus we don't really want to make the same requests twice if we don't have to. 
-
-
+- Testing
+    - I'm fairly new to testing in React. I understand the utility of testing, of course but haven't quite got to grips with how best to test components and elements within. Its difficult to decipher what is useful to test and what is not. 
 
 
 #### Final Thoughts

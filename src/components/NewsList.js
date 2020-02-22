@@ -28,7 +28,7 @@ export default class NewsList extends Component {
       );
     });
     return (
-      <div className="container">
+      <div className="container" data-test="newslist-component">
           <div className="row">{stories}</div>
       </div>
     );
