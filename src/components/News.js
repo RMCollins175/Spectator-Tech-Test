@@ -38,7 +38,7 @@ export default class News extends Component {
     try {
         const response = await Axios.get(`${searchAPI}${keyword}${apiKey}`);
         this.setState({ results: response.data.articles });
-        console.log(response.data.articles);
+        console.log("SEARCH ARTICLES", response.data.articles);
     } catch(e) {
         this.handleError(e);
     }
@@ -52,7 +52,7 @@ export default class News extends Component {
     } catch (e) {
       this.handleError(e);
     }
-    console.log(this.state.results);
+    console.log("API RESULTS", this.state.results);
   }
 
 

@@ -7,6 +7,8 @@ import DiscoverNews from './components/DiscoverNews';
 import NewsList from './components/NewsList';
 import NavBar from './components/NavBar';
 
+// import moxios from 'moxios'
+
 
 Enzyme.configure({ adapter: new EnzymeAdapter()})
 
@@ -34,7 +36,7 @@ test('News renders without an error', () => {
 
 test('DiscoverNews renders with a button ', () => {
   const wrapper = shallow(<DiscoverNews />)
-  const appComponent = findTestAttr(wrapper, 'button-to-api')
+  const appComponent = findTestAttr(wrapper, 'discover-news-component')
   expect(appComponent.length).toBe(1)
 })
 
@@ -44,11 +46,15 @@ test('DiscoverNews renders with a button ', () => {
 //   expect(appComponent.length).toBe(1)
 // })
 
-test("clicking 'Learn More' button takes us to the NewsAPI", () => {
-  const wrapper = shallow(<DiscoverNews />)
-  const appComponent = wrapper.find("[data-test='button-to-api']")
-  // expect onClicking the button it takes us to the correct address
-})
+// test("clicking 'Learn More' button takes us to the NewsAPISource", () => {
+//   const wrapper = shallow(<DiscoverNews />)
+//   // Find button and click
+//   const button = wrapper.find("[data-test='button-to-api']")
+//   // wrapper.find('a').simulate('click')
+//   button.simulate('click')
+//   // expect the click event to take you to a specific link
+//   // mock the link? 
+// })
 
 
 // test('DiscoverNews component mounts correctly', () => {
@@ -73,5 +79,20 @@ test('state results start as empty []', () => {
   expect(intialState).toEqual([])
 })
 
-// TESTING STATE AFTER API CALL
+
+
+// TESTING API CALL
+
+// describe('get news from NewsApi', ()  => {
+//   // send the requests to moxios
+//   beforeEach(() => {
+//     moxios.install()
+//   })
+//   afterEach(() => {
+//     moxios.uninstall()
+//   })
+//   test('add news stories to the results state', () => {
+
+//   })
+// })
 
