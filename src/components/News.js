@@ -37,7 +37,7 @@ export default class News extends Component {
     try {
         const response = await Axios.get(`${SEARCHAPI}${keyword}${APIKEY}`);
         this.setState({ results: response.data.articles });
-        console.log("SEARCH ARTICLES", response.data.articles);
+        // console.log("SEARCH ARTICLES", response.data.articles);
     } catch(e) {
         this.handleError(e);
     }
@@ -55,7 +55,7 @@ export default class News extends Component {
 
 
   render() {
-    const { results, articles } = this.state;
+    const { results } = this.state;
 
     return (
       <>
@@ -67,13 +67,13 @@ export default class News extends Component {
             exact
             path="/"
             render={() => (
-              <NewsList newsStories={results || []} newsArray={articles} />
+              <NewsList newsStories={results || []}/>
             )}
           />
           <Route
             exact
             path="/news/:title"
-            render={routeProps => <NewsStory {...routeProps} />}
+            render={routeProps => <NewsStory {...routeProps}  newsStories={results || []}/>}
           />
         </Switch>
         <Redirect to="/" />

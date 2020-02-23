@@ -32,7 +32,8 @@ As a user
 - Remove data-test attributes from production
     - https://www.udemy.com/course/react-testing-with-jest-and-enzyme/learn/lecture/16175901#overview
 - Wait until the API has made the complete call and fetched from the API until loading everything in. 
-
+- Loading spinners / Loading states for when fetching from the API
+- Hide the search bar when you've clicked through to a link
 
 
 #### Blockers/Problems
