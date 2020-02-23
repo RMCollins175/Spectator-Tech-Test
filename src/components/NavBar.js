@@ -23,7 +23,7 @@ export default class NavBar extends Component {
       <div data-test="navbar-component" style={{fontFamily:'Sorts Mill Goudy, serif'}}>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <a className="navbar-brand" href="/">
-            Home
+            Today
           </a>
           <button
             className="navbar-toggler"

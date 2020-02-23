@@ -4,7 +4,6 @@ import NavBar from "./NavBar";
 import NewsList from "./NewsList.js";
 import NewsStory from "./NewsStory";
 
-
 import { Switch, Route, Redirect } from "react-router-dom";
 
 import Axios from "axios";

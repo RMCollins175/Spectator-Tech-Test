@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Moment from "react-moment";
+import './NewsListItem.css'
 
 export default class NewsListItem extends Component {
 
@@ -20,17 +21,16 @@ export default class NewsListItem extends Component {
     // console.log("TITLE", title)
     console.log(author)
 
-
     return (
-      <div className="col-lg-4 mb-3">
+      <div className="col-lg-4 mb-3 NewsListItem-container" >
         <div className="card">
-          <Link to={`/news/${title}`} style={{ color: "black" }}>
+          <Link to={`/news/${encodeURIComponent(title)}`} style={{ color: "black" }}>
             <img src={image} className="card-img-top" alt="..." />
           </Link>
           <div className="card-body">
             <footer>
               <small className="text-muted">
-                <cite title="Source Title" style={{fontFamily:'Sorts Mill Goudy', color: "red", fontSize: "1rem"}}>{author}</cite>
+                <cite className="author" title="Source Title" style={{fontFamily:'Sorts Mill Goudy', color: "red", fontSize: "1rem"}}>{author}</cite>
               </small>
             </footer>
             <h5 className="card-title" style={{fontFamily:'Sorts Mill Goudy', fontWeight: "500"}}>{title}</h5>

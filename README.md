@@ -45,6 +45,14 @@ As a user
     - While I had to create another stateful component and make a separate request it does the job as there is not loads of data flying around. In a bigger application, this would be a no go, as things would get messy quickly. Plus we don't really want to make the same requests twice if we don't have to. 
 - Testing
     - I'm fairly new to testing in React. I understand the utility of testing, of course, but haven't quite got to grips with how best to test components and elements within. It's difficult to decipher what is useful to test and what is not. I understand that testing key functionality is a must, but a lot of what I've come accross online indicates that testing things like if a component mounted/rendered or not. I don't see the utility in that as much as other tests. 
+- Styling 
+    - my NewsStory component inherited styling from my DiscoverNews css
+    - as a quick workaround I just overrided my NewsStory component with different styling. 
+
+
+#### Other Musings
+- Styling
+    - I could have used styled-components to format everything, I've had some experience with this, but I thought this would be too verbose. 
 
 
 #### Final Thoughts
