@@ -43,7 +43,6 @@ As a user
     - How the API is structured, you cannot find one article easily
     - I would have just made a request in NewsStory to get that article based on a unique id given by the API. But the API doesn't do give that option. I thought about using the URL as that's unique but React Router didn't like a nested url inside a url. 
     - the other option was to use context as a wrapper for everything, so I could easily have each component access to props, but I thought that would be unneccessry and maybe overkill, plus I wanted to show I udnerstood props effectively and how to pass them around components from parent to child
-    - While I had to create another stateful component and make a separate request it does the job as there is not loads of data flying around. In a bigger application, this would be a no go, as things would get messy quickly. Plus we don't really want to make the same requests twice if we don't have to. 
 - Testing
     - I'm fairly new to testing in React. I understand the utility of testing, of course, but haven't quite got to grips with how best to test components and elements within. It's difficult to decipher what is useful to test and what is not. I understand that testing key functionality is a must, but a lot of what I've come accross online indicates that testing things like if a component mounted/rendered or not. I don't see the utility in that as much as other tests. 
 - Styling 
@@ -55,13 +54,10 @@ As a user
 - Styling
     - I could have used styled-components to format everything, I've had some experience with this, but I thought this would be too verbose. 
 
-
 #### Final Thoughts
 
 - Great tech test. I really enjoyed it and want to continue until I feel completely happy with it. Then the next stage is to re-build it completely functionally with hooks.
 - If I was to give feedback, and if I may be so bold, I think saying 'it should take 2 hours' is a bit of a red-herring. Even if you knew absolutely everything without looking up and came accross no bugs or issues, just typing time alone to create a simple app would take 2 hours. 
-
-
 
 #### Packages Used
 
@@ -72,10 +68,10 @@ As a user
 - Shallow, enzyme/jest for testing
 
 
-
-#### Other Details 
-My API key is: 55f245758a054a6381d493b655144574
-I used 'Sorts Mill Goudy' as the closest free font style
+#### Other Details / Relevant Links
+- My API key is: 55f245758a054a6381d493b655144574
+- I used 'Sorts Mill Goudy' as the closest free font style
+- https://www.robinwieruch.de/react-warning-cant-call-setstate-on-an-unmounted-component
 
 
 #### How to use
