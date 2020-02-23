@@ -22,7 +22,7 @@ export default class NewsListItem extends Component {
 
     // console.log("URI TITLE", encodeURIComponent(title))
     // console.log("TITLE", title)
-
+    console.log(author)
     return (
       <div className="col-lg-4 mb-3" onClick={this.handleClick}>
         <div className="card">
@@ -31,13 +31,13 @@ export default class NewsListItem extends Component {
           </Link>
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
-            <small>{content}</small>
+            {/* <small>{content}</small> */}
             <footer className="blockquote-footer">
               <small className="text-muted">
                 <cite title="Source Title">{author}</cite>
               </small>
             </footer>
-            <p className="card-text pt-4">{source.name}</p>
+            <p className="card-text pt-4">{source}</p>
           </div>
           <div className="card-footer d-flex justify-content-between ">
             <a href={link} className="btn btn-outline-danger btn-sm">

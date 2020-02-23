@@ -31,6 +31,7 @@ export default class NewsStory extends Component {
     this._isMounted = false;
   }
 
+  // match the specific article against the array of article objects and return it
   findArticle = () => {
     const article = this.props;
     let currentArticle = this.state.articles.find(
@@ -42,8 +43,8 @@ export default class NewsStory extends Component {
   render() {
     const article = this.findArticle();
 
-    console.log("PARAMS", this.props.match.params)
-    console.log(article)
+    console.log("PARAMS", this.props.match.params);
+    console.log(article);
 
     // checks if article is empty (which it will be before componentDidMount) and to return null before component is re-rendered
     if (!article) return null;
@@ -65,19 +66,14 @@ export default class NewsStory extends Component {
             <p className="card-text">
               <small className="text-muted">Last updated 3 mins ago</small>
             </p>
-            <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-            </p>
-            <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-            </p>
           </div>
         </div>
-        <Link to="/" className="btn btn-danger center">
-          Go Back
-        </Link>
+        <div className="pb-3 text-center">
+          <Link to="/" className="btn btn-danger center">
+            Go Back
+          </Link>
+        </div>
       </div>
     );
   }
 }
-
