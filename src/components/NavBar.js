@@ -20,7 +20,7 @@ export default class NavBar extends Component {
 
   render() {
     return (
-      <div data-test="navbar-component">
+      <div data-test="navbar-component" style={{fontFamily:'Sorts Mill Goudy, serif'}}>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <a className="navbar-brand" href="/">
             Home
@@ -81,7 +81,7 @@ export default class NavBar extends Component {
                 onChange={this.handleChange}
               />
               <button
-                className="btn btn-outline-success my-2 my-sm-0"
+                className="btn btn-outline-danger my-2 my-sm-0"
                 type="submit"
                 onClick={this.handleSubmit}
               >

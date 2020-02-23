@@ -64,8 +64,9 @@ As a user
 
 
 
-#### Details 
+#### Other Details 
 My API key is: 55f245758a054a6381d493b655144574
+I used 'Sorts Mill Goudy' as the closest free font style
 
 
 #### How to use
