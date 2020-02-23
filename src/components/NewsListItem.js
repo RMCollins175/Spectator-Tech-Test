@@ -32,7 +32,6 @@ export default class NewsListItem extends Component {
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
             <small>{content}</small>
-            {/* or {description} */}
             <footer className="blockquote-footer">
               <small className="text-muted">
                 <cite title="Source Title">{author}</cite>

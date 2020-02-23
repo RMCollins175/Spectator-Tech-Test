@@ -68,6 +68,12 @@ As a user
 My API key is: 55f245758a054a6381d493b655144574
 
 
+#### How to use
+- clone the repo
+- npm install
+- npm start
+- If my API key does not work, Get an API key from https://newsapi.org/ and replace it with mine in BASEAPI and APIKEY constants in News component
+
 
 
 
@@ -98,7 +104,6 @@ The purpose of this assessment is to complete a simple coding assignment. You ar
 • A responsive web page which is functional at any screen size
 • The source code as a zip file or a link to a repository
 • Source code must contain a README with instructions on running your project locally
-
 
 #### Be prepared to talk about
 • What you did, how you did it, and how long it took

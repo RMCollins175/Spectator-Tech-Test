@@ -6,7 +6,9 @@ const baseAPI =
   "http://newsapi.org/v2/top-headlines?country=gb&apiKey=e8d527c9872c46219461b1d3ac282653";
 
 export default class NewsStory extends Component {
+  // Prevent React setState on unmounted Component
   _isMounted = false;
+
   constructor(props) {
     super(props);
 
@@ -41,9 +43,11 @@ export default class NewsStory extends Component {
     const article = this.findArticle();
 
     console.log("PARAMS", this.props.match.params)
-
-    if (!article) return null;
     console.log(article)
+
+    // checks if article is empty (which it will be before componentDidMount) and to return null before component is re-rendered
+    if (!article) return null;
+
     return (
       <div className="container">
         <div className="card mb-3">
@@ -76,3 +80,4 @@ export default class NewsStory extends Component {
     );
   }
 }
+

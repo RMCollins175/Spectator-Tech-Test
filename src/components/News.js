@@ -9,11 +9,11 @@ import { Switch, Route, Redirect } from "react-router-dom";
 
 import Axios from "axios";
 
-const baseAPI =
+// API query strings
+const BASEAPI =
   "http://newsapi.org/v2/top-headlines?country=gb&apiKey=e8d527c9872c46219461b1d3ac282653";
-
-const searchAPI = "http://newsapi.org/v2/everything?q=";
-const apiKey = "&apiKey=e8d527c9872c46219461b1d3ac282653";
+const SEARCHAPI = "http://newsapi.org/v2/everything?q=";
+const APIKEY = "&apiKey=e8d527c9872c46219461b1d3ac282653";
 
 export default class News extends Component {
   constructor(props) {
@@ -36,7 +36,7 @@ export default class News extends Component {
 
   async searchNews(keyword) {
     try {
-        const response = await Axios.get(`${searchAPI}${keyword}${apiKey}`);
+        const response = await Axios.get(`${SEARCHAPI}${keyword}${APIKEY}`);
         this.setState({ results: response.data.articles });
         console.log("SEARCH ARTICLES", response.data.articles);
     } catch(e) {
@@ -45,9 +45,8 @@ export default class News extends Component {
   }
 
   async componentDidMount() {
-    this._isMounted = true;
     try {
-      const response = await Axios.get(`${baseAPI}`);
+      const response = await Axios.get(`${BASEAPI}`);
       this.setState({ results: response.data.articles });
     } catch (e) {
       this.handleError(e);
