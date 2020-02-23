@@ -4,10 +4,6 @@ import Moment from "react-moment";
 
 export default class NewsListItem extends Component {
 
-  handleClick = () => {
-    console.log()
-  }
-
   render() {
     const {
       image,
@@ -26,19 +22,19 @@ export default class NewsListItem extends Component {
 
 
     return (
-      <div className="col-lg-4 mb-3" onClick={this.handleClick}>
+      <div className="col-lg-4 mb-3">
         <div className="card">
           <Link to={`/news/${title}`} style={{ color: "black" }}>
             <img src={image} className="card-img-top" alt="..." />
           </Link>
           <div className="card-body">
-            <footer className="blockquote-footer">
+            <footer>
               <small className="text-muted">
                 <cite title="Source Title" style={{fontFamily:'Sorts Mill Goudy', color: "red", fontSize: "1rem"}}>{author}</cite>
               </small>
             </footer>
-            <h5 className="card-title" style={{fontFamily:'Sorts Mill Goudy'}}>{title}</h5>
-            {/* <small>{content}</small> */}
+            <h5 className="card-title" style={{fontFamily:'Sorts Mill Goudy', fontWeight: "500"}}>{title}</h5>
+            <small>{content}</small>
             <p className="card-text pt-4" style={{fontFamily:'Sorts Mill Goudy'}} >{source}</p>
           </div>
           <div className="card-footer d-flex justify-content-between ">
