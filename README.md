@@ -28,6 +28,7 @@ So that I can read about what I'm interested in
 - Wait until the API has made the call and fetched from the API until loading everything in. 
 - Loading spinners / Loading states for when fetching from the API
 - Hide the search bar when you've clicked through to a link
+- Re-organise files; separate out stylesheets and tests into separate folders
 
 
 #### Blockers/Problems
