@@ -6,32 +6,24 @@
 -  Implement Basic Routing
 -  Implement Focus news reading (i.e. user can click through to read article)
 
-
-As a user
-I want to search for news
-So that I can read about what i'm interested in
+Fundamental Requirements
 
 As a user
 I want to open the webpage to relevant news
-So that 
+So that I can choose what I want to read
 
-As a user 
-
-
+As a user
+I want to search for news
+So that I can read about what I'm interested in
 
 
 #### Next Steps/TODO
-- add attribution somewhere - "Powered by newsapi.org"
 - change <a> tags to <NavLink>(s) 
-
-- Unit tests
 - DiscoverNews could perhpas be named better
     - It also could be intended for some kind of Carousel for breaking news stories
-- newsStories={results || [] } ... do I need the empty array
-- App/News setup is perhaps wrong or not best practice. Should I be doing my routing in APP component.
+- App/News setup is perhaps wrong or not best practice. Should I be doing my routing in APP component? Probably
 - Remove data-test attributes from production
-    - https://www.udemy.com/course/react-testing-with-jest-and-enzyme/learn/lecture/16175901#overview
-- Wait until the API has made the complete call and fetched from the API until loading everything in. 
+- Wait until the API has made the call and fetched from the API until loading everything in. 
 - Loading spinners / Loading states for when fetching from the API
 - Hide the search bar when you've clicked through to a link
 
@@ -49,7 +41,6 @@ As a user
     - my NewsStory component inherited styling from my DiscoverNews css
     - as a quick workaround I just overrided my NewsStory component with different styling. 
 
-
 #### Other Musings
 - Styling
     - I could have used styled-components to format everything, I've had some experience with this, but I thought this would be too verbose. 
@@ -57,7 +48,6 @@ As a user
 #### Final Thoughts
 
 - Great tech test. I really enjoyed it and want to continue until I feel completely happy with it. Then the next stage is to re-build it completely functionally with hooks.
-- If I was to give feedback, and if I may be so bold, I think saying 'it should take 2 hours' is a bit of a red-herring. Even if you knew absolutely everything without looking up and came accross no bugs or issues, just typing time alone to create a simple app would take 2 hours. 
 
 #### Packages Used
 
@@ -67,12 +57,10 @@ As a user
 - Uuid
 - Shallow, enzyme/jest for testing
 
-
 #### Other Details / Relevant Links
 - My API key is: 55f245758a054a6381d493b655144574
 - I used 'Sorts Mill Goudy' as the closest free font style
 - https://www.robinwieruch.de/react-warning-cant-call-setstate-on-an-unmounted-component
-
 
 #### How to use
 - clone the repo

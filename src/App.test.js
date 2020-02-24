@@ -1,12 +1,10 @@
 import React from "react";
-import App from "./App";
 import Enzyme, { shallow } from "enzyme";
 import EnzymeAdapter from "enzyme-adapter-react-16";
 import News from "./components/News";
 import DiscoverNews from "./components/DiscoverNews";
 import NewsList from "./components/NewsList";
 import NavBar from "./components/NavBar";
-import axios from "axios";
 
 Enzyme.configure({ adapter: new EnzymeAdapter() });
 
@@ -42,19 +40,26 @@ jest.mock("axios");
 describe("News component", () => {
   describe("when rendered", () => {
     it("should fetch a list of articles", () => {
-      const getSpy = jest.spyOn(axios, "get");
-
-      expect(getSpy).toBeCalled();
+      // stuff here  
     });
   });
 });
 
 //  NAVBAR Component Tests //
 
-test("NavBar component mounts correctly", () => {
-  const wrapper = shallow(<NavBar />);
-  const appComponent = findTestAttr(wrapper, "navbar-component");
-  expect(appComponent.length).toBe(1);
+describe("Navbar component tests", () => {
+  it("NavBar component mounts correctly", () => {
+    const wrapper = shallow(<NavBar />);
+    const appComponent = findTestAttr(wrapper, "navbar-component");
+    expect(appComponent.length).toBe(1);
+  });
+
+  it("onClick is called correctly to search for keyword terms", () => {
+    const mockOnClick = jest.fn();
+    const wrapper = shallow(<button onClick={mockOnClick} />)
+    wrapper.find('button').simulate('click')
+    expect(mockOnClick.mock.calls.length).toEqual(1)
+  });
 });
 
 // DISCOVER NEWS Component tests
@@ -90,15 +95,12 @@ describe("DiscoverNews component", () => {
 });
 
 
-// test("clicking 'Powered by NewsAPI' button takes us to the NewsAPISource", () => {
-//   const wrapper = shallow(<DiscoverNews />)
-//   // Find button and click
-//   const button = wrapper.find("[data-test='button-to-api']")
-//   // wrapper.find('a').simulate('click')
-//   button.simulate('click')
-//   // expect the click event to take you to a specific link
-//   // mock the link?
-// })
+test("clicking 'Powered by NewsAPI' button takes us to the NewsAPISource", () => {
+  const mockCallBack = jest.fn();
+  const wrapper = shallow(<DiscoverNews />)
+  wrapper.find("[data-test='button-to-api']").simulate('click');
+  expect(mockCallBack.mock.calls.length).toEqual(1);
+})
 
 
 // NewsList Component TESTS //
@@ -106,7 +108,6 @@ describe("DiscoverNews component", () => {
 test("NewsList renders", () => {
   const wrapper = shallow(<NewsList />);
   const appComponent = findTestAttr(wrapper, "newslist-component");
-  // add dummy newStories data here
   expect(appComponent.length).toBe(1);
 });
 
