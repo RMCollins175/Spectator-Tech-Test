@@ -41,6 +41,8 @@ So that I can read about what I'm interested in
 - Styling 
     - my NewsStory component inherited styling from my DiscoverNews css
     - as a quick workaround I just overrided my NewsStory component with different styling. 
+- Issues with the API
+    - There was some issue with searching for articles and passing the title as props to other components via react router. I had to, in some instance perform URI encoding/decoding. but clicking on some articles can cause crashes as for some reason URI encoding is applied. I intend to put some basic error state conditions if this happens as reversing the encoding just does not seem to work. 
 
 #### Other Musings
 - Styling
