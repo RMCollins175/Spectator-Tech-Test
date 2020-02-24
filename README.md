@@ -18,7 +18,6 @@ So that I can read about what I'm interested in
 
 
 #### Next Steps/TODO
-- change <a> tags to <NavLink>(s) 
 - DiscoverNews could perhpas be named better
     - It also could be intended for some kind of Carousel for breaking news stories
 - App/News setup is perhaps wrong or not best practice. Should I be doing my routing in APP component? Probably
@@ -36,7 +35,9 @@ So that I can read about what I'm interested in
     - I would have just made a request in NewsStory to get that article based on a unique id given by the API. But the API doesn't do give that option. I thought about using the URL as that's unique but React Router didn't like a nested url inside a url. 
     - the other option was to use context as a wrapper for everything, so I could easily have each component access to props, but I thought that would be unneccessry and maybe overkill, plus I wanted to show I udnerstood props effectively and how to pass them around components from parent to child
 - Testing
-    - I'm fairly new to testing in React. I understand the utility of testing, of course, but haven't quite got to grips with how best to test components and elements within. It's difficult to decipher what is useful to test and what is not. I understand that testing key functionality is a must, but a lot of what I've come accross online indicates that testing things like if a component mounted/rendered or not. I don't see the utility in that as much as other tests. 
+    - I'm fairly new to testing in React. I understand the utility of testing, of course, but haven't quite got to grips with how best to test components and elements within. I had a go at snapshot test, they are incomplete. I'm not quite sure how to use the dummy data to mock. A lot of these test I don't fully understand yet, but have taken them from online and adapted to fit this app.
+    - I would like to get to grips with testing the API calls. I know you can mock that.
+    - Currentty I have two tesst failing which I need to fix. But I feel they are testing the right thing, So i've left them there incomplete for me to look at further down the line.
 - Styling 
     - my NewsStory component inherited styling from my DiscoverNews css
     - as a quick workaround I just overrided my NewsStory component with different styling. 
@@ -66,6 +67,7 @@ So that I can read about what I'm interested in
 - clone the repo
 - npm install
 - npm start
+- npm test to run test suite
 - If my API key does not work, Get an API key from https://newsapi.org/ and replace it with mine in BASEAPI and APIKEY constants in News component
 
 
