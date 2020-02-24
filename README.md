@@ -8,13 +8,16 @@
 
 Fundamental Requirements
 
+```
 As a user
 I want to open the webpage to relevant news
 So that I can choose what I want to read
 
+
 As a user
 I want to search for news
 So that I can read about what I'm interested in
+```
 
 
 #### Next Steps/TODO
@@ -37,7 +40,7 @@ So that I can read about what I'm interested in
 - Testing
     - I'm fairly new to testing in React. I understand the utility of testing, of course, but haven't quite got to grips with how best to test components and elements within. I had a go at snapshot test, they are incomplete. I'm not quite sure how to use the dummy data to mock. A lot of these test I don't fully understand yet, but have taken them from online and adapted to fit this app.
     - I would like to get to grips with testing the API calls. I know you can mock that.
-    - Currentty I have two tesst failing which I need to fix. But I feel they are testing the right thing, So i've left them there incomplete for me to look at further down the line.
+    - Currentty I have two tesst failing which I need to fix. But I feel they are testing the right thing, So I've left them there incomplete for me to look at further down the line.
 - Styling 
     - my NewsStory component inherited styling from my DiscoverNews css
     - as a quick workaround I just overrided my NewsStory component with different styling. 
