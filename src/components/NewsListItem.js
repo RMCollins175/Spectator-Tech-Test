@@ -17,9 +17,6 @@ export default class NewsListItem extends Component {
       publishedTime
     } = this.props;
 
-    // console.log("URI TITLE", encodeURIComponent(title))
-    // console.log("TITLE", title)
-
     return (
       <div className="col-lg-4 mb-3 NewsListItem-container" >
         <div className="card">
