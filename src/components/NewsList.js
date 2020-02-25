@@ -6,7 +6,7 @@ export default class NewsList extends Component {
   render() {
     const { newsStories } = this.props;
 
-    // This checks if the API has failed and if it has to render an errorMessage set in state
+    // This checks if the API has failed. If it has, newStories props will be an array on length 1 (the error message) object
     if (newsStories.length === 1) {
       return (
         <div
