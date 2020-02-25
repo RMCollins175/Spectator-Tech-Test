@@ -29,6 +29,8 @@ So that I can read about what I'm interested in
 - Loading spinners / Loading states for when fetching from the API
 - Hide the search bar when you've clicked through to a link
 - Re-organise files; separate out stylesheets and tests into separate folders
+- Add in simple error message functionality when search key word returns no results. e.g. mispelling
+    - this should be a simple fix. and should ask the use to check spelling/or try searching a different term
 
 
 #### Blockers/Problems
