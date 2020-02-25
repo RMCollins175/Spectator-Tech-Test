@@ -31,6 +31,7 @@ So that I can read about what I'm interested in
 - Re-organise files; separate out stylesheets and tests into separate folders
 - Add in simple error message functionality when search key word returns no results. e.g. mispelling
     - this should be a simple fix. and should ask the use to check spelling/or try searching a different term
+- The Bootstrap Navbar toggle is a bit too big, when the page is re-sized to a smaller size. This should be a simple fix.
 
 
 #### Blockers/Problems
