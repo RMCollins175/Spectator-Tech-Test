@@ -65,7 +65,7 @@ export default class News extends Component {
             exact
             path="/"
             render={() => (
-              <NewsList newsStories={results || []}/>
+              <NewsList newsStories={results}/>
             )}
           />
           <Route
