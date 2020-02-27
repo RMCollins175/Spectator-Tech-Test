@@ -1,0 +1,19 @@
+.title {
+  display: flex;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #d30d1d;
+  text-transform: uppercase;
+  letter-spacing: -0.2rem;
+}
+
+span {
+    font-size: 4rem;
+}
+

@@ -1,0 +1,7 @@
+.NewsListItem-container:hover {
+    opacity: 0.8;
+}
+
+cite.author:hover {
+    text-decoration: underline;
+}

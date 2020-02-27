@@ -1,0 +1,266 @@
+{
+    "status":"ok",
+    "totalResults":38,
+    "articles":[
+       {
+          "source":{
+             "id":"financial-times",
+             "name":"Financial Times"
+          },
+          "author":"Alice Woodhouse",
+          "title":"Coronavirus latest: China and South Korea cases rise while airlines fear $29bn impact - Financial Times",
+          "description":"News, analysis and comment from the Financial Times, the worldʼs leading global business publication",
+          "url":"https://www.ft.com/content/65913f1a-b1e8-366a-8d54-79a68c1f9d2c",
+          "urlToImage":null,
+          "publishedAt":"2020-02-21T08:36:00Z",
+          "content":"Keep abreast of significant corporate, financial and political developments around the world.\r\nStay informed and spot emerging risks and opportunities with independent global reporting, expert\r\ncommentary and analysis you can trust."
+       },
+       {
+          "source":{
+             "id":null,
+             "name":"Theguardian.com"
+          },
+          "author":"Adam Collins",
+          "title":"Australia v India: Women's Twenty20 World Cup opener – live! - The Guardian",
+          "description":"Over-by-over report: Hot favourites Australia get their campaign underway with a tough opening outing in Sydney. Join Adam Collins for updates",
+          "url":"https://www.theguardian.com/sport/live/2020/feb/21/australia-v-india-womens-twenty20-world-cup-opener-live",
+          "urlToImage":"https://i.guim.co.uk/img/media/003095521f9fa2cbccbe1a29543854d3d4bc0d00/0_135_4041_2425/master/4041.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=af9b1966de16102f2062dd06f30ba27e",
+          "publishedAt":"2020-02-21T08:14:00Z",
+          "content":"9.00am GMT09:00\r\n14th over: India 89-3 (Rodrigues 21, Deepti 21) Missed stumping! Down the legside off the seam of Schutt, but they are the type Healy so often executes so shes frustrated not to have taken Deeptis bails. Much as it has been over the last half… [+7314 chars]"
+       },
+       {
+          "source":{
+             "id":null,
+             "name":"Sky.com"
+          },
+          "author":"Sky",
+          "title":"Artificial intelligence used to discover powerful new antibiotic - Sky News",
+          "description":"An algorithm which can scan millions of chemical compounds uncovers an \"amazing molecule\" which could kill diseases like E.coli.",
+          "url":"https://news.sky.com/story/artificial-intelligence-used-to-discover-powerful-new-antibiotic-11939198",
+          "urlToImage":"https://e3.365dm.com/20/02/1600x900/skynews-e-coli-bacteria-antibiotics_4926241.jpg?20200221070106",
+          "publishedAt":"2020-02-21T07:37:07Z",
+          "content":null
+       },
+       {
+          "source":{
+             "id":null,
+             "name":"Skysports.com"
+          },
+          "author":"Sky Sports",
+          "title":"Wilder vs Fury 2: Tyson Fury and Deontay Wilder banned from facing off at weigh-in for rematch - Sky Sports",
+          "description":"Tyson Fury and Deontay Wilder have been banned from having a face-off at the weigh-in for their rematch after clashing at a press conference on Wednesday.",
+          "url":"https://www.skysports.com/boxing/news/12183/11939199/wilder-vs-fury-2-tyson-fury-and-deontay-wilder-banned-from-facing-off-at-weigh-in-for-rematch",
+          "urlToImage":"https://e0.365dm.com/20/02/1600x900/skysports-wilder-fury_4925328.jpg",
+          "publishedAt":"2020-02-21T07:15:12Z",
+          "content":"Tyson Fury and Deontay Wilder have been banned from having a face-off at the weigh-in for their rematch in Las Vegas after clashing at a press conference on Wednesday.\r\nWilder (41-0-1 41KOs) will defend his WBC heavyweight title against Fury (29-0-1 20KOs) on… [+1240 chars]"
+       },
+       {
+          "source":{
+             "id":null,
+             "name":"Thesun.co.uk"
+          },
+          "author":"SunSport Reporters",
+          "title":"8am Arsenal news LIVE: Saka assist in Olympiacos win amid contract talks, Tah and David transfer, Guirassy - The Sun",
+          "description":"",
+          "url":"http://www.thesun.co.uk/sport/football/10974941/arsenal-news-live-saka-tah-david-transfer-guirassy/",
+          "urlToImage":"https://www.thesun.co.uk/wp-content/uploads/2020/02/ARSENAL_NEWS_LIVE_2_WAY-12.jpg?strip=all&quality=100&w=1200&h=800&crop=1",
+          "publishedAt":"2020-02-21T07:03:42Z",
+          "content":"GOOD MORNING ARSENAL FANS\r\nAlexandre Lacazette's late goal saw the Gunners take a narrow 1-0 lead from their Europa League first-leg tie at Olympiacos.\r\nBukayo Saka popped up with another assist after the North Londoners rode their luck throughout the game to… [+1008 chars]"
+       },
+       {
+          "source":{
+             "id":null,
+             "name":"Express.co.uk"
+          },
+          "author":"Tim Redigolo",
+          "title":"UK flood WARNING: Storm Dennis brings £15 BILLION damage - and MORE horror rain on the way - Express",
+          "description":"STORM DENNIS has caused as much as £15 billion in damage after heavy rain flooded parts of the country last week, and that could yet increase with more severe downpours forecasted.",
+          "url":"https://www.express.co.uk/news/uk/1244924/Uk-flood-warning-storm-dennis-damage-met-office-weather-warnings-flood-alert",
+          "urlToImage":"https://cdn.images.express.co.uk/img/dynamic/1/750x445/1244924.jpg",
+          "publishedAt":"2020-02-21T07:00:00Z",
+          "content":null
+       },
+       {
+          "source":{
+             "id":null,
+             "name":"Theguardian.com"
+          },
+          "author":"Warren Murray",
+          "title":"Friday briefing: Grace Millane killer to serve at least 17 years - The Guardian",
+          "description":"‘Your actions reveal complete disregard for your victim’ says Auckland judge … migrant worker laws ‘may fuel modern slavery’ … Ireland’s electoral deadlock",
+          "url":"https://www.theguardian.com/world/2020/feb/21/friday-briefing-grace-millane-killer-to-serve-at-least-17-years",
+          "urlToImage":"https://i.guim.co.uk/img/media/bbf804295f2f096639124e714706bc58226df8c7/0_0_4348_2609/master/4348.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=485ab56d2bab944c4499be788d246819",
+          "publishedAt":"2020-02-21T06:29:00Z",
+          "content":"Top story: Never just a daughter my very best friend\r\nHello, Warren Murray bringing you the news that matters most this morning.\r\nThe New Zealand man found guilty of murdering British backpacker Grace Millane in November 2018 has been sentenced to life in pri… [+9954 chars]"
+       },
+       {
+          "source":{
+             "id":null,
+             "name":"Theguardian.com"
+          },
+          "author":"Lisa O'Carroll",
+          "title":"Immigration rules post-Brexit could fuel modern slavery, say charities - The Guardian",
+          "description":"Charities say ban on low-skilled workers could lead to boom in black market",
+          "url":"https://www.theguardian.com/uk-news/2020/feb/21/immigration-rules-post-brexit-could-fuel-modern-slavery-say-charities",
+          "urlToImage":"https://i.guim.co.uk/img/media/09fd72ad09dde1653eec505d9b735071272461ab/845_875_1394_837/master/1394.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b4437a9249bbc09e1e8fdece0d3ce3ba",
+          "publishedAt":"2020-02-21T06:00:00Z",
+          "content":"The proposed closure of UK borders to low-skilled workers after Brexit risks driving vulnerable EU citizens into modern slavery, charities have said.\r\nThey warned the ban will lead to a boom in a black market for low-paid workers that will be exploited by cri… [+3489 chars]"
+       },
+       {
+          "source":{
+             "id":"independent",
+             "name":"Independent"
+          },
+          "author":"Ed Cumming",
+          "title":"The abrupt Nazi-killing in new Al Pacino series Hunters is pure Quentin Tarantino – review - The Independent",
+          "description":"Inglourious Basterds is an obvious reference point for new series from Get Out's Jordan Peele",
+          "url":"https://www.independent.co.uk/arts-entertainment/tv/reviews/hunters-season-1-amazon-prime-al-pacino-logan-lerman-jordan-peele-quentin-tarantino-a9347706.html",
+          "urlToImage":"https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/02/20/16/hunters-al-pacino-logan-lerman.jpg",
+          "publishedAt":"2020-02-21T06:00:00Z",
+          "content":"Hunters (Amazon Prime) opens with a scene of cartoonish violence that catches the viewer off-guard. The camera descends from above onto the garden of a large house in rural Maryland in 1977, where elderly patriarch Biff Simpson (Dylan Baker) is hosting a barb… [+9162 chars]"
+       },
+       {
+          "source":{
+             "id":null,
+             "name":"Theguardian.com"
+          },
+          "author":"Patrick Wintour",
+          "title":"Iran's leaders warn low turnout in election will boost Trump - The Guardian",
+          "description":"Voters set to shun Friday’s parliamentary poll in sign of protest or indifference",
+          "url":"https://www.theguardian.com/world/2020/feb/21/irans-leaders-warn-low-turnout-in-election-will-boost-trump",
+          "urlToImage":"https://i.guim.co.uk/img/media/1307dee7067e55d85a29729724cc0e0a41d40241/0_88_2200_1320/master/2200.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5f063f001ccfff43dbc3d38b9bdbca2d",
+          "publishedAt":"2020-02-21T05:00:00Z",
+          "content":"Irans senior leaders flooded the media with eve-of-poll warnings that abstentions in Fridays parliamentary elections either through indifference or as a protest will only encourage Donald Trump to step up economic sanctions against Tehran.\r\nThe one-week perio… [+8346 chars]"
+       },
+       {
+          "source":{
+             "id":"techradar",
+             "name":"TechRadar"
+          },
+          "author":"Desire Athow",
+          "title":"Here’s the cheapest 64-core CPU currently on the market - TechRadar",
+          "description":"Threadripper rips through the competition",
+          "url":"https://www.techradar.com/news/heres-the-cheapest-64-core-cpu-currently-on-the-market",
+          "urlToImage":"https://cdn.mos.cms.futurecdn.net/5GdNNnSPkqsLzRsQGGUbTC-1200-80.jpg",
+          "publishedAt":"2020-02-21T05:00:00Z",
+          "content":"If you're looking to grab the cheapest 64-core CPU available on the market right now, Amazon is the place to flock to.\r\nDespite the arrival of the cheapest AMD Epyc yet, the 7662, it's the Ryzen Threadripper 3990X\r\n that remains by far the most affordable 64-… [+1393 chars]"
+       },
+       {
+          "source":{
+             "id":"bbc-news",
+             "name":"BBC News"
+          },
+          "author":"https://www.facebook.com/bbcnews",
+          "title":"NHS 'took 18 months to help after suicide attempt' - BBC News",
+          "description":"Poor treatment for those who self-harm or attempt suicide is putting lives at risk, psychiatrists say.",
+          "url":"https://www.bbc.co.uk/news/health-51571805",
+          "urlToImage":"https://ichef.bbci.co.uk/news/1024/branded_news/D5DB/production/_110974745_photo.jpg",
+          "publishedAt":"2020-02-21T04:36:04Z",
+          "content":"Image caption\r\n Simon has struggled with his mental health over the past three decades\r\nPoor treatment and aftercare for people who self-harm or attempt suicide is putting their lives at risk, the Royal College of Psychiatrists says. \r\nMost patients treated i… [+4093 chars]"
+       },
+       {
+          "source":{
+             "id":null,
+             "name":"Theguardian.com"
+          },
+          "author":"Vivian Ho",
+          "title":"Trump jabs at Parasite's Oscar win because film is 'from South Korea' - The Guardian",
+          "description":"President says US has trade problems with South Korea and wonders if ‘we can get Gone With the Wind back’",
+          "url":"https://www.theguardian.com/film/2020/feb/20/trump-parasite-oscar-south-korea",
+          "urlToImage":"https://i.guim.co.uk/img/media/896903df7cdf017dd2176e9a506e59b35b096413/0_70_2281_1368/master/2281.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3a418cc8e054de6741242539349aabdf",
+          "publishedAt":"2020-02-21T03:20:00Z",
+          "content":"Donald Trump has taken a jab at the Oscars for awarding this years best picture honor to Parasite, because the film is South Korean.\r\nHow bad were the Academy Awards this year? Trump asked a rally in Colorado Springs, Colorado. The crowd responded with loud b… [+1836 chars]"
+       },
+       {
+          "source":{
+             "id":null,
+             "name":"Thesun.co.uk"
+          },
+          "author":"Alahna Kindred",
+          "title":"UK Weather forecast – Blizzards and eight inches of snow to hit this weekend as floods misery rumbles on - The Sun",
+          "description":"",
+          "url":"http://www.thesun.co.uk/news/11008102/uk-weather-forecast-blizzards-weather-warning-weekend/",
+          "urlToImage":"https://www.thesun.co.uk/wp-content/uploads/2020/02/CJ-COMP-WEATHER-2.jpg?strip=all&quality=100&w=1200&h=800&crop=1",
+          "publishedAt":"2020-02-21T02:06:58Z",
+          "content":"STRONG winds and up eight inches of snow could bring blizzard conditions to parts of the country this weekend.\r\nA cold front will come across the UK bringing freezing temperatures as the Met Office has issued a yellow weather warning for rain over Saturday an… [+4152 chars]"
+       },
+       {
+          "source":{
+             "id":"bbc-news",
+             "name":"BBC News"
+          },
+          "author":"https://www.facebook.com/bbcnews",
+          "title":"Coronavirus: Ukraine protesters attack buses carrying China evacuees - BBC News",
+          "description":"President Volodymyr Zelensky urged people to show solidarity and remember \"we are all human\".",
+          "url":"https://www.bbc.co.uk/news/world-europe-51581805",
+          "urlToImage":"https://ichef.bbci.co.uk/news/1024/branded_news/1A98/production/_110980860_d8f35f38-beb4-4153-99d8-7e57414799c4.jpg",
+          "publishedAt":"2020-02-21T02:02:37Z",
+          "content":"Image copyrightReutersImage caption\r\n Protesters in Novi Sanzhary hurled stones at the buses carrying evacuees\r\nDozens of protesters in a Ukrainian town have attacked buses carrying evacuees from coronavirus-hit China.\r\nThe evacuees were brought to the hospit… [+3015 chars]"
+       },
+       {
+          "source":{
+             "id":"bbc-news",
+             "name":"BBC News"
+          },
+          "author":"https://www.facebook.com/bbcnews",
+          "title":"Coronavirus outbreak to cost airlines almost $30bn - BBC News",
+          "description":"Airline industry body IATA predicts global air travel demand will fall for the first time since 2009.",
+          "url":"https://www.bbc.co.uk/news/business-51499779",
+          "urlToImage":"https://ichef.bbci.co.uk/news/1024/branded_news/134E4/production/_110967097_gettyimages-1197653137.jpg",
+          "publishedAt":"2020-02-21T01:57:29Z",
+          "content":"Image copyrightGetty Images\r\nAirlines stand to lose $29.3bn (£23.7bn) of revenue this year due to the coronavirus outbreak, the global airline industry body has warned.\r\nThe International Air Transport Association (IATA) predicts demand for air travel will fa… [+1989 chars]"
+       },
+       {
+          "source":{
+             "id":"bbc-news",
+             "name":"BBC News"
+          },
+          "author":"https://www.facebook.com/bbcnews",
+          "title":"Wood burners: Most polluting fuels to be banned in the home - BBC News",
+          "description":"Owners of wood burners and open fires will be discouraged from burning coal or wet wood from next year.",
+          "url":"https://www.bbc.co.uk/news/uk-51581817",
+          "urlToImage":"https://ichef.bbci.co.uk/news/1024/branded_news/4DC4/production/_110980991_gettyimages-601124046.jpg",
+          "publishedAt":"2020-02-21T01:50:13Z",
+          "content":"Image copyrightGetty Images\r\nOwners of wood burners, stoves and open fires will no longer be able to buy coal or wet wood to burn in them, under a ban to be rolled out from next year.\r\nSales of the two most polluting fuels will be phased out in England to hel… [+3279 chars]"
+       },
+       {
+          "source":{
+             "id":"bbc-news",
+             "name":"BBC News"
+          },
+          "author":"https://www.facebook.com/bbcnews",
+          "title":"Coronavirus: Repatriation flight for Britons on Diamond Princess delayed - BBC News",
+          "description":"Repatriating about 70 UK nationals from Japan is \"logistically complicated\", the embassy in Tokyo says.",
+          "url":"https://www.bbc.co.uk/news/uk-51581245",
+          "urlToImage":"https://ichef.bbci.co.uk/news/1024/branded_news/27E0/production/_110980201_gettyimages-1207490741.jpg",
+          "publishedAt":"2020-02-21T01:16:24Z",
+          "content":"Image copyrightGetty Images\r\nAn evacuation flight for Britons trapped on a coronavirus-hit cruise ship in Japan has been delayed by a day, the British embassy has said.\r\nAbout 70 UK nationals who have spent 16 days in quarantine on the liner had expected to f… [+6331 chars]"
+       },
+       {
+          "source":{
+             "id":null,
+             "name":"Thetimes.co.uk"
+          },
+          "author":"Tom Knowles, Technology Correspondent",
+          "title":"Barclays abandon spyware that kept staff at their desk - The Times",
+          "description":"Barclays has scrapped the use of surveillance software that monitored how employees were spending their time after it was deemed to be “creepy” by privacy experts.The bank ditched the software one",
+          "url":"https://www.thetimes.co.uk/article/barclays-used-spyware-on-staff-in-investment-division-in-effort-to-boost-productivity-3nshmbkch",
+          "urlToImage":"https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F4ee7dd2c-542a-11ea-b4ee-385bb4c8d255.jpg?crop=3901%2C2195%2C17%2C439&resize=685",
+          "publishedAt":"2020-02-21T00:01:00Z",
+          "content":"Barclays has scrapped the use of surveillance software that monitored how employees were spending their time after it was deemed to be creepy by privacy experts.\r\nThe bank ditched the software one week after installing it after a backlash from the public and … [+483 chars]"
+       },
+       {
+          "source":{
+             "id":null,
+             "name":"Thesun.co.uk"
+          },
+          "author":"Dan Cain",
+          "title":"Love Island’s Shaughna wows fans with very glam makeover as she returns to Instagram - The Sun",
+          "description":"",
+          "url":"http://www.thesun.co.uk/tvandshowbiz/love-island/11008870/love-islands-shaughna-glam-makeover-returns-instagram/",
+          "urlToImage":"https://i2.wp.com/www.thesun.co.uk/wp-content/uploads/2020/02/NINTCHDBPICT000564644376.jpg?crop=0px%2C0px%2C1051px%2C701px&resize=1200%2C800&ssl=1",
+          "publishedAt":"2020-02-20T23:00:00Z",
+          "content":"LOVE Island's Shaughna Phillips returned to Instagram tonight with a glam new makeover.\r\nThe fan favourite hasn't posted on her account since she went into the villa last month, and her return sent followers wild.\r\n Love Island's Shaughna Phillips returned to… [+2545 chars]"
+       }
+    ]
+ }
