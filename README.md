@@ -1,6 +1,7 @@
 #### Approach
 - chosen Bootstrap (not reactstrap), manually install bootstrap
     - cons - a bit cluttered
+    - pros - able to focus on getting something working and responsive (not re-inventing the wheel)
 -  Render UK headlines on loading
 -  Implement Search functionality 
 -  Implement Basic Routing
